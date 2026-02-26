@@ -11,7 +11,7 @@ async function calculateAge() {
     }
 
     try {
-        const response = await fetch("https://kalkulatorumurbackend-production.up.railway.app/", {
+        const response = await fetch("/api/hitung-umur", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
